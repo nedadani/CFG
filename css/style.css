@@ -1,0 +1,49 @@
+body {
+	background-size: cover;
+	background-image: url(../assets/background.jpg);
+}
+
+.background {
+	background: rgba(0,0,0,0.5);
+}
+
+#navbarNav {
+	margin-right: 140px;
+}
+
+.nav-item {
+	padding: 0 10px;
+}
+
+.vertical {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: calc(100vh - 60px);
+}
+
+.form-control {
+	padding: 25px;
+	border-radius: 50px;
+}
+
+.title {
+	margin: 0 0 30px;
+	color: rgba(255,255,255,0.8	);
+}
+
+.btn {
+	height: 50px;
+	border-radius: 50px;
+}
+
+.line-name {
+	height: 62px;
+}
+
+#result {
+	font-size: 35px;
+	color: rgba(255,255,255,0.8);
+	border-bottom: 5px solid;
+	padding-bottom: 5px;
+}
